@@ -10,9 +10,7 @@ def search_ddg(search_query):
     """Поиск в DuckDuckGo. Полезен, когда нужно ответить на вопросы о текущих событиях. Входными данными должен быть поисковый запрос."""
     return DuckDuckGoSearchRun().run(search_query)
 
-API_KEY = "MTZiOWZkMjMtMzMzMS00NmM3LTg0ZjAtNWM0YmI2OTExZDZhOjFiOGUxYjc2LTVkNzYtNGQyMS1iNWYxLWVhMjIwYjUyMjczMg=="
-
-
+API_KEY = API_KEY
 from gigachat import GigaChat
 
 # Укажите ключ авторизации, полученный в личном кабинете, в интерфейсе проекта GigaChat API
